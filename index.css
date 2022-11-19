@@ -33,13 +33,6 @@ input {
   margin-top: auto;
 }
 
-img {
-  background-color: rgb(192, 192, 192);
-  padding: 1px;
-  border-radius: 10px;
-  width: 28px;
-}
-
 ul {
   display: flex;
   list-style-type: none;
@@ -80,4 +73,7 @@ a {
 
 .hero {
   display: flex;
+  background-color: #dcbfff;
+  justify-content: space-between;
+  margin: auto;
 }
