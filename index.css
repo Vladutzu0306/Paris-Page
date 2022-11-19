@@ -3,12 +3,16 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  margin: 0;
+  padding: 0;
 }
 
 .left,
 .right {
   display: flex;
-  gap: 8px;
+  gap: 16px;
+  margin: auto 0;
+  padding: 0;
 }
 
 input {
@@ -19,21 +23,21 @@ input {
   padding: 0;
   margin: 0;
   padding-left: 2px;
-} 
+}
 
 .search {
   display: flex;
   height: 30px;
-  border: solid 3px rgb(96, 96, 96);
+  border: solid 3px rgb(192, 192, 192);
   border-radius: 15px;
-  position: relative;
+  margin-top: auto;
 }
 
 img {
-  background-color: rgb(96, 96, 96);
+  background-color: rgb(192, 192, 192);
   padding: 1px;
   border-radius: 10px;
-  width:28px;
+  width: 28px;
 }
 
 ul {
@@ -51,14 +55,29 @@ li {
 
 a {
   text-decoration: none;
+  color: white;
+  font-size: 20px;
 }
 
 .header {
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  background-color: #1f2937;
+  margin: 0;
+  padding: 20px;
 }
 
 .footer {
   display: flex;
   justify-content: center;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+}
+
+.top {
+  display: flex;
 }
