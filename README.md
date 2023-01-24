@@ -1,3 +1,2 @@
-# Odin-Landing-Page
-Project webpage for The Odin Project Landing Page assignment.
+# Paris-Page
 This is a webpage about the capital of France, Paris.
